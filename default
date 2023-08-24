@@ -1,7 +1,6 @@
 # nginx default file, name it as "default"
 # check out my YouTube video "https://youtu.be/-PGhVFsOnGA"
 server {
-    
     listen 8080;
     listen [::]:8080;
     root /home/site/wwwroot/public;

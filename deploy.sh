@@ -1,6 +1,6 @@
-cp /home/default /etc/nginx/sites-enabled/default
+cp /home/scripts/jiblili-scripts/default /etc/nginx/sites-enabled/default
 
-cp /home/php.ini /usr/local/etc/php/conf.d/php.ini
+cp /home/scripts/jiblili-scripts/php.ini /usr/local/etc/php/conf.d/php.ini
 
 
 # install support for webp file conversion
@@ -14,7 +14,7 @@ docker-php-ext-install gd
 # install support for queue
 apt-get install -y supervisor 
 
-cp /home/laravel-worker.conf /etc/supervisor/conf.d/laravel-worker.conf
+cp /home/scripts/jiblili-scripts/php.ini /etc/supervisor/conf.d/laravel-worker.conf
 
 # restart nginx
 service nginx restart

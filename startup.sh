@@ -1,6 +1,6 @@
-cp /home/default /etc/nginx/sites-enabled/default
+cp /home/scripts/jiblili-scripts/default /etc/nginx/sites-enabled/default
 
-cp /home/php.ini /usr/local/etc/php/conf.d/php.ini
+cp /home/scripts/jiblili-scripts/php.ini /usr/local/etc/php/conf.d/php.ini
 
 
 # install support for webp file conversion
