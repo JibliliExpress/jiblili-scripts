@@ -28,7 +28,7 @@ php /home/site/wwwroot/artisan migrate:fresh --seed --force
 # Clear caches
 php /home/site/wwwroot/artisan optimize:clear
 
-php artisan passport:install
+php /home/site/wwwroot/artisan passport:install
 
 # uncomment next line if you dont have S3 or Blob storage
 php /home/site/wwwroot/artisan storage:link

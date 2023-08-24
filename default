@@ -1,10 +1,9 @@
-# nginx default file, name it as "default"
-# check out my YouTube video "https://youtu.be/-PGhVFsOnGA"
+
 server {
     listen 8080;
     listen [::]:8080;
     root /home/site/wwwroot/public;
-    server_name  mywebapp.azurewebsites.net; 
+    server_name  jiblili-backend.azurewebsites.net/; 
     port_in_redirect off;
 
     add_header X-Frame-Options "SAMEORIGIN";
