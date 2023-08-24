@@ -10,7 +10,7 @@ apt-get update --allow-releaseinfo-change && apt-get install -y libfreetype6-dev
                 libwebp-dev \
         && docker-php-ext-configure gd --with-freetype --with-webp  --with-jpeg
 docker-php-ext-install gd
-
+apt-get install git -y
 # install support for queue
 apt-get install -y supervisor 
 
