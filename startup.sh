@@ -14,7 +14,7 @@ docker-php-ext-install gd
 # install support for queue
 apt-get install -y supervisor 
 
-cp /home/laravel-worker.conf /etc/supervisor/conf.d/laravel-worker.conf
+cp /home/scripts/jiblili-scripts/php.ini /etc/supervisor/conf.d/laravel-worker.conf
 
 # restart nginx
 service nginx restart
